@@ -1,17 +1,39 @@
 body {
 	text-align: center;
 	margin-bottom: 100px;
+	background-color: #fffcf0;
 }
 
 .section {
-
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
+.section-sm {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.section-content {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+h3 {
+	font-size: 1rem;
+}
+
+#heading {
+	padding: 0;
+}
 
 #gallery {
-	margin-top: 100px;
-	margin-bottom: 50px;
 	width: 100%;
+	padding: 0;
 }
 
 .carousel-inner {
@@ -33,6 +55,22 @@ body {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
+
+/* invitation */
+#invitation {
+	background-color: #fff2e1;
+}
+.invitation-context {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.invitation-name {
+	padding-top: 20px;
+}
+
+
+
+/* location */
 #map-image {
 	margin: auto;
 }
