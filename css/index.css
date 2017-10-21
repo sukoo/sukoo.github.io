@@ -17,6 +17,7 @@ body {
 .carousel-inner {
 	margin: auto;
 	width: 100%;
+	max-width: 900px;
 }
 
 .carousel-item img {
@@ -39,16 +40,7 @@ body {
 
 
 @media (max-width: 991px) {
-	.navbar-brand {
-		font-size: 30px;
-	}
-	.nav-item.nav-link {
-		font-size: 25px;
-	}
 }
 
 @media (min-width: 992px) {
-	.carousel-inner {
-		max-width: 900px;
-	}
 }
